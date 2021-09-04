@@ -1,0 +1,123 @@
+/* Importar fontes */
+@font-face {
+    font-family: fonteLogo;
+    src: url(CELTG.TTF);
+}
+
+/* Padronizar tags */
+*{
+    font: 14px sans-serif;
+    margin: 0px;
+    padding: 0px;    
+}
+
+header{
+    overflow: hidden;
+    background-color: #000;
+}
+
+header h1{
+    float: left;
+    color: #fff;    
+    font-size: 35px;
+    margin: 15px;
+
+    font-family: fontelogo;
+}
+
+header nav{
+    float: right;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 15px;
+    display: inline-block;
+    transition: background-color 0,5s;
+}
+
+header a:hover{
+    background-color: rgb(1, 77, 1);
+}
+
+/* BANNER */
+.banner{
+    background-image: url(imagens/fundo1.jpg);
+    background-position: center center;
+    height: 700px;
+}
+
+.banner h1{
+    font-size: 56px;
+    text-align: center;
+    padding-top: 250px;
+    font-weight: bold;
+    color: #ffff;
+    text-shadow: 0px 0px 10px #000;  
+}
+
+/* Conteúdo principal */    
+
+main{
+    width: 1100px;
+    margin: 0 auto;    
+}   
+
+/* Sobre */
+.sobre{
+    overflow: hidden;
+}
+
+.sobre h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.sobre img{
+    width: 550px;
+    float: left;
+}
+
+.sobre p{
+    width: 500px;
+    float: right;   
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* IMAGENS */
+
+.imagens{
+    overflow: hidden;
+}
+
+.imagens h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.imagens img{
+    float: left;
+    width: 500px;
+    height: 500px;
+    border: 10px double gray;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer{
+    background-color:#000;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
